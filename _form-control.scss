@@ -11,7 +11,7 @@
  * Supported controls:
  *   input: text, search, email, number, url, tel, date, month, week, time
  *   input: checkbox, radio - with modifiers
- *   textarea - with modifiers
+ *   textarea
  *
  * Example HTML:
  *
@@ -27,7 +27,7 @@
  *   <input class="FormControl--radio" type="radio">
  * </p>
  * <p>
- *   <textarea class="FormControl FormControl--textarea"
+ *   <textarea class="FormControl"
  *             rows="10">hello</textarea>
  * </p>
  */
@@ -78,14 +78,6 @@ $bits-components-ns: 'bits-' !default;
 
 /* Component modifiers
    ========================================================================== */
-
-/**
- * Textarea control
- */
-
-.#{$bits-components-ns}FormControl--textarea {
- resize: none;
-}
 
 /**
  * Checkbox and radio controls

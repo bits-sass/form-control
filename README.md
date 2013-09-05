@@ -21,7 +21,6 @@ See [demo](https://rawgithub.com/bits-sass/form-control/master/demo/index.html).
 ## Available classes
 
 * `FormControl` - core component for textual inputs
-* `FormControl--textarea` - textarea control
 * `FormControl--checkbox` - checkbox control
 * `FormControl--radio` - radio control
 
@@ -29,7 +28,7 @@ See [demo](https://rawgithub.com/bits-sass/form-control/master/demo/index.html).
 
 * `input`: text, search, email, number, url, tel, date, month, week, time
 * `input`: checkbox, radio - *with a modifier*
-* `textarea` - *with a modifier*
+* `textarea`
 
 ## Usage
 
