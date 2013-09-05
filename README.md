@@ -23,6 +23,10 @@ See [demo](https://rawgithub.com/bits-sass/form-control/master/demo/index.html).
 * `FormControl` - core component
 * `FormControl--checkbox` - checkbox control
 * `FormControl--radio` - radio control
+* `is-disabled` - for disabled-state styles (themes)
+
+N.B. You must also include the `disabled` attribute on `input`, `textarea` and
+`select` elements
 
 ## Supported controls
 

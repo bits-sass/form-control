@@ -91,6 +91,20 @@ $bits-components-ns: 'bits-' !default;
        box-sizing: border-box;
 }
 
+/* FormControl states */
+
+/**
+ * These two rules need to be separated due to IE8 bug
+ */
+
+.#{$bits-components-ns}FormControl:disabled {
+  cursor: default;
+}
+
+.#{$bits-components-ns}FormControl.is-disabled {
+  cursor: default;
+}
+
 /* Component modifiers
    ========================================================================== */
 
