@@ -20,7 +20,7 @@ See [demo](https://rawgithub.com/bits-sass/form-control/master/demo/index.html).
 
 ## Available classes
 
-* `FormControl` - core component for textual inputs
+* `FormControl` - core component
 * `FormControl--checkbox` - checkbox control
 * `FormControl--radio` - radio control
 
