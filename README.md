@@ -28,6 +28,7 @@ See [demo](https://rawgithub.com/bits-sass/form-control/master/demo/index.html).
 
 * `input`: text, search, email, number, url, tel, date, month, week, time
 * `input`: checkbox, radio - *with a modifier*
+* `select`: normal, multiple
 * `textarea`
 
 ## Usage

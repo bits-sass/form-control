@@ -11,12 +11,27 @@
  * Supported controls:
  *   input: text, search, email, number, url, tel, date, month, week, time
  *   input: checkbox, radio - with modifiers
+ *   select: normal, multiple
  *   textarea
  *
  * Example HTML:
  *
  * <p>
  *   <input class="FormControl" type="text">
+ * </p>
+ * <p>
+ *   <select class="FormControl">
+ *     <option value="…">…</option>
+ *     <option value="…">…</option>
+ *     <option value="…">…</option>
+ *   </select>
+ * </p>
+ * <p>
+ *   <select multiple class="FormControl">
+ *     <option value="…">…</option>
+ *     <option value="…">…</option>
+ *     <option value="…">…</option>
+ *   </select>
  * </p>
  * <p>
  *   Check me:
