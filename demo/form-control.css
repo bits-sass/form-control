@@ -83,6 +83,18 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/* FormControl states */
+/**
+ * Disabled state
+ */
+.bits-FormControl:disabled {
+  cursor: default;
+  border-color: red; }
+
+.bits-FormControl.is-disabled {
+  cursor: default;
+  border-color: red; }
+
 /* Component modifiers
    ========================================================================== */
 /**
