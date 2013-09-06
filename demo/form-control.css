@@ -88,12 +88,10 @@
  * Disabled state
  */
 .bits-FormControl:disabled {
-  cursor: default;
-  border-color: red; }
+  cursor: default; }
 
 .bits-FormControl.is-disabled {
-  cursor: default;
-  border-color: red; }
+  cursor: default; }
 
 /* Component modifiers
    ========================================================================== */
