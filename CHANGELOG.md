@@ -1,5 +1,7 @@
 === HEAD
 
+=== 0.2.0 (September 5, 2013)
+
 * Remove `FormControl--textarea` modifier
 * Add support for `select`
 * Fix `radio` and `checkbox` top-margin on IE9-
